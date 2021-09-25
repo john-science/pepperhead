@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="PepperHead logo" src="./assets/hot_sauces.png">
-    <HelloWorld msg="Welcome to PepperHead"/>
+    <HotSauceTable msg="Welcome to PepperHead"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HotSauceTable from './components/HotSauceTable.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HotSauceTable
   }
 }
 </script>
