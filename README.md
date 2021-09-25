@@ -1,24 +1,19 @@
-# pepperhead
+# PepperHead
 
-## Project setup
-```
-yarn install
-```
+> Hot Sauce Reviews
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Why does this site exists?
 
-### Lints and fixes files
-```
-yarn lint
-```
+1. I love hot sauce.
+2. I want to try out Vue.js.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Educational Notes
+
+#### Vue.js
+
+Well, it's that time again:
+
+> Time to learn another JavaScript Framework.
+
