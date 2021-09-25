@@ -1,3 +1,5 @@
+[![Build Status](https://github.com/john-science/pepperhead/actions/workflows/deploy.yaml/badge.svg?branch=main)](https://github.com/john-science/pepperhead/actions/workflows/deploy.yaml)
+
 # PepperHead
 
 > Hot Sauce Reviews
@@ -16,4 +18,3 @@
 Well, it's that time again:
 
 > Time to learn another JavaScript Framework.
-
