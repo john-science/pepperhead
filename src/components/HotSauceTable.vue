@@ -1,36 +1,79 @@
-<template>
-  <div class="row">
-    <div class="col-8">
-      <h3>Hello, Pepper Heads!</h3>
-      <table class="table table-striped center">
-        <thead class="thead-dark">
-            <th v-for="header in headers" :key="header" scope="col">
-              {{ header | capitalize }}
-            </th>
-        </thead>
-        <tbody>
-          <tr v-for="item in list" :key="item.name">
-            <td v-for="header in headers" :key="header">{{ item[header] }}</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+<template :heroes="listData" :headers="headers">
+  <div>
+    <h3>Hello, Pepper Heads!</h3>
+    <table class="center">
+      <thead>
+        <th v-for="header in headers" :key="header" @click="sortBy(header)" :class="{ active: sortKey == header }">
+          {{ header | capitalize }}
+        </th>
+      </thead>
+      <tbody>
+        <tr v-for="item in filteredHeroes" :key="item.sauce">
+          <td v-for="header in headers" :key="header">{{ item[header] }}</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </template>
 
 
 <script>
 export default {
+  props: {
+    heroes: Array,
+    headers: Array,
+    filterKey: String
+  },
   data: function() {
+    this.headers = ["sauce", "rating", "SHU", "food_pairings"];
+    this.filterKey = "";
+    this.sortKey = "";
+    var sortOrders = {};
+    this.headers.forEach(function(key) {
+      sortOrders[key] = 1;
+    });
     return {
-      searchQuery: "",
-      headers: ["sauce", "rating", "SHU", "food_pairings"],
-      list: [
+      sortKey: "",
+      sortOrders: sortOrders,
+      listData: [
 { sauce: "Sriracha", rating: 80, SHU: 2200, food_pairings: "Eggs, Thai" },
 { sauce: "Tobasco", rating: 25, SHU: 3750, food_pairings: "Eggs" },
 { sauce: "Iguana Gold", rating: 95, SHU: 6000, food_pairings: "Pretzels, Sausages" },
 { sauce: "Cholula", rating: 75, SHU: 3600, food_pairings: "Eggs, Mexican" }
       ],
+    }
+  },
+  computed: {
+    filteredHeroes: function() {
+      var sortKey = this.sortKey;
+      var filterKey = this.filterKey && this.filterKey.toLowerCase();
+      var order = this.sortOrders[sortKey] || 1;
+      var heroes = this.heroes;
+
+      // TODO: This should be unnecessary. We are missing some Vue data binding.
+      if (typeof(heroes) == "undefined"){
+        heroes = this.listData;
+      }
+
+      if (filterKey) {
+        heroes = heroes.filter(function(row) {
+          return Object.keys(row).some(function(key) {
+            return (
+              String(row[key])
+              .toLowerCase()
+              .indexOf(filterKey) > -1
+            );
+          });
+        });
+      }
+      if (sortKey) {
+        heroes = heroes.slice().sort(function(a, b) {
+          a = a[sortKey];
+          b = b[sortKey];
+          return (a === b ? 0 : a > b ? 1 : -1) * order;
+        });
+      }
+      return heroes;
     }
   },
   filters: {
