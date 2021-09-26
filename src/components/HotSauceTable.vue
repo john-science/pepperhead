@@ -26,6 +26,9 @@
         </tr>
       </tbody>
     </table>
+
+    <p>The reviews above are obviously based on personal taste. I obviously like spicy sauces, but I also like to use <strong>a lot</strong> of sauce, so I tend to dislike vinegar-heavy sauces. Please
+    don't send me hate mail if you disagree with these ratings. Perhaps some day I will build a community hot sauce review site, where you can make your own voice heard.</p>
   </div>
 </template>
 
