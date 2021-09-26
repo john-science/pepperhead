@@ -1,35 +1,38 @@
 <template>
-<div>
-  <h3>Hello, {{ followers }}!</h3>
-  <table class="center">
-    <tr>
-      <th>Sauce</th>
-      <th>SHU</th>
-      <th>Foods</th>
-    </tr>
-    <tr>
-      <td>Sriacha</td>
-      <td>2200</td>
-      <td>Eggs, Thai</td>
-    </tr>
-    <tr>
-      <td>Iguana Gold</td>
-      <td>6000</td>
-      <td>Sausages, Pretzels</td>
-    </tr>
-  </table>
-</div>
+  <div class="row">
+    <div class="col-8">
+      <h3>Hello, Pepper Heads!</h3>
+      <table class="table table-striped center">
+        <thead class="thead-dark">
+            <th v-for="header in headers" :key="header" scope="col">
+              {{ header }}
+            </th>
+        </thead>
+        <tbody>
+          <tr v-for="item in list" :key="item.name">
+            <td v-for="header in headers" :key="header">{{ item[header] }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </template>
 
 
 <script>
 export default {
-  data:  function() {
+  data() {
     return {
-      followers: 'Pepper Heads'
-    }
+      headers: ["sauce", "rating", "SHU"],
+      list: [
+{ sauce: "Sriracha", rating: 80, SHU: 2200 },
+{ sauce: "Tobasco", rating: 25, SHU: 3750 },
+{ sauce: "Iguana Gold", rating: 95, SHU: 6000 },
+{ sauce: "Cholula", rating: 75, SHU: 3600 }
+      ],
+    };
   }
-}
+};
 </script>
 
 
