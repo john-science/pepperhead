@@ -1,7 +1,16 @@
-<template :heroes="listData" :headers="headers">
+<template>
   <div>
     <h3>Hello, Pepper Heads!</h3>
-    <table class="center">
+
+    <!--
+    // TODO: Get search working
+    <form id="search">
+      Search <input name="query" v-model="searchQuery" />
+    </form>
+    <br />
+    -->
+
+    <table class="center" :filter-key="searchQuery">
       <thead>
         <th v-for="header in headers" :key="header" @click="sortBy(header)" :class="{ active: sortKey == header }">
           {{ header | capitalize }}
@@ -18,6 +27,125 @@
 
 
 <script>
+let rawData = [                                                                                                                                                                                                  
+{
+sauce: "Sriracha",
+brewery: "Hoy Fung Foods, Inc",
+rating: 80,
+SHU: 2200,
+times_purchased: 36,
+food_pairings: "Thai, Eggs",
+flavor: "Sweet-forward, but still tangy. Nice and thick, it won't run off your eggs. A classic sauce.",
+},
+{
+sauce: "Tobasco",
+brewery: "McIlhenny Co",
+rating: 20,
+SHU: 3750,
+times_purchased: 0,
+food_pairings: "Eggs",
+flavor: "Vinegar is the over-riding flavor, sadly. But distantly, a lot of wonderful depth of flavor from being aged in whiskey barrels for years."
+},
+{
+sauce: "Peri Peri - XX Hot",
+brewery: "Nando's Ltd",
+rating: 90,
+SHU: 35000,
+times_purchased: 2,
+food_pairings: "Eggs, grilled vegetables",
+flavor: "Deep earthy flavor. The flavor of the birds-eye chiles is up front, but paired will with  onion, garlic and spices.",
+},
+
+{
+sauce: "Iguana Gold",
+brewery: "Half Moon Bay Trading Co",
+rating: 95,
+SHU: 6000,
+times_purchased: 1,
+food_pairings: "Pretzels, Sausages",
+flavor: "A great mustardy flavor, with a kick. There is also a lot of onion and carrot there, to round out the flavor."
+},
+
+{
+sauce: "Tears of the Sun Private Reserve",
+brewery: "High River Sauces",
+rating: 90,
+SHU: 6500,
+times_purchased: 1,
+food_pairings: "Thai, eggs, sandwiches",
+flavor: "All fruit and funk, in the best way. Mango and heat.",
+},
+
+{
+sauce: "Howler Monkey Sauce - Hot",
+brewery: "Howler Monkey Sauce",
+rating: 55,
+SHU: 7000,
+times_purchased: 1,
+food_pairings: "French fries, eggs",
+flavor: "Mostly just vinegar and heat, but with a nice salt-and-pepper after taste."
+},
+
+{
+sauce: "Ghost Pepper",
+brewery: "Melinda's",
+rating: 55,
+SHU: 45000,
+times_purchased: 1,
+food_pairings: "eggs, sandwiches",
+flavor: "Some funky tang, but mostly just vinegar."
+},
+
+{
+sauce: "Cholula - Original",
+brewery: "Spicy Liquid, LLC",
+rating: 75,
+SHU: 3600,
+times_purchased: 12,
+food_pairings: "Pizza, Eggs",
+flavor: "A bit less funky than Sriracha. Vinegar forward with a wonderful smokiness."
+},
+
+{
+sauce: "Red Habenero",
+brewery: "El Yucateco Co",
+rating: 75,
+SHU: 5790,
+times_purchased: 1,
+food_pairings: "fries, burgers",
+flavor: "Tomato-forward, but without the sugar of ketchup. Rich and surprisingly complex. Maybe more hot than balanced.",
+},
+{
+sauce: "Green Habenero",
+brewery: "El Yucateco Co",
+rating: 78,
+SHU: 9000,
+times_purchased: 1,
+food_pairings: "eggs, tacos",
+flavor: "The ingredients just say peppers, but there is something uniquely El Yucateco that I just love about this flavor.",
+},
+{
+sauce: "Caribbean Habenero",
+brewery: "El Yucateco Co",
+rating: 90,
+SHU: 5400,
+times_purchased: 1,
+food_pairings: "rice and beans, corn on the cob, sandwiches",
+flavor: "So much flavor: carrots and onions all rounded out to a really distinctive, rich flavor.",
+},
+{
+sauce: "Kutbil-Ik XXXtra Hot Habenero",
+brewery: "El Yucateco Co",
+rating: 80,
+SHU: 11600,
+times_purchased: 1,
+food_pairings: "burgers",
+flavor: "Tomatoes, onions and spices lead to a really well-round flavor for something with so much KICK.",
+}
+];
+
+let rawHeaders = Object.keys(rawData[0]);
+
 export default {
   props: {
     heroes: Array,
@@ -25,7 +153,7 @@ export default {
     filterKey: String
   },
   data: function() {
-    this.headers = ["sauce", "rating", "SHU", "food_pairings"];
+    this.headers = rawHeaders;
     this.filterKey = "";
     this.sortKey = "";
     var sortOrders = {};
@@ -34,13 +162,9 @@ export default {
     });
     return {
       sortKey: "",
+      searchQuery: "",
       sortOrders: sortOrders,
-      listData: [
-{ sauce: "Sriracha", rating: 80, SHU: 2200, food_pairings: "Eggs, Thai" },
-{ sauce: "Tobasco", rating: 25, SHU: 3750, food_pairings: "Eggs" },
-{ sauce: "Iguana Gold", rating: 95, SHU: 6000, food_pairings: "Pretzels, Sausages" },
-{ sauce: "Cholula", rating: 75, SHU: 3600, food_pairings: "Eggs, Mexican" }
-      ],
+      listData: rawData,
     }
   },
   computed: {
