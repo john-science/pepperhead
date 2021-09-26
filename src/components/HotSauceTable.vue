@@ -5,7 +5,7 @@
       <table class="table table-striped center">
         <thead class="thead-dark">
             <th v-for="header in headers" :key="header" scope="col">
-              {{ header }}
+              {{ header | capitalize }}
             </th>
         </thead>
         <tbody>
@@ -21,16 +21,28 @@
 
 <script>
 export default {
-  data() {
+  data: function() {
     return {
-      headers: ["sauce", "rating", "SHU"],
+      searchQuery: "",
+      headers: ["sauce", "rating", "SHU", "food_pairings"],
       list: [
-{ sauce: "Sriracha", rating: 80, SHU: 2200 },
-{ sauce: "Tobasco", rating: 25, SHU: 3750 },
-{ sauce: "Iguana Gold", rating: 95, SHU: 6000 },
-{ sauce: "Cholula", rating: 75, SHU: 3600 }
+{ sauce: "Sriracha", rating: 80, SHU: 2200, food_pairings: "Eggs, Thai" },
+{ sauce: "Tobasco", rating: 25, SHU: 3750, food_pairings: "Eggs" },
+{ sauce: "Iguana Gold", rating: 95, SHU: 6000, food_pairings: "Pretzels, Sausages" },
+{ sauce: "Cholula", rating: 75, SHU: 3600, food_pairings: "Eggs, Mexican" }
       ],
-    };
+    }
+  },
+  filters: {
+    capitalize: function(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1).replaceAll("_", " ");
+    }
+  },
+  methods: {
+    sortBy: function(key) {
+      this.sortKey = key;
+      this.sortOrders[key] = this.sortOrders[key] * -1;
+    }
   }
 };
 </script>
