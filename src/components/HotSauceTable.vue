@@ -3,13 +3,10 @@
     <h3>Hot Sauce Reviews</h3>
     <h4>by... some pepper head</h4>
 
-    <!--
-    // TODO: Get search working
     <form id="search">
-      Search <input name="query" v-model="searchQuery" />
+      Search <input name="query" class="inputClass" v-model="searchQuery" />
     </form>
     <br />
-    -->
 
     <table class="center" :filter-key="searchQuery">
       <thead>
@@ -27,6 +24,7 @@
       </tbody>
     </table>
 
+    <br />
     <p>The reviews above are obviously based on personal taste. I obviously like spicy sauces, but I also like to use <strong>a lot</strong> of sauce, so I tend to dislike vinegar-heavy sauces. Please
     don't send me hate mail if you disagree with these ratings. Perhaps some day I will build a community hot sauce review site, where you can make your own voice heard.</p>
   </div>
@@ -61,14 +59,10 @@ export default {
   computed: {
     filteredHeroes: function() {
       var sortKey = this.sortKey;
-      var filterKey = this.filterKey && this.filterKey.toLowerCase();
       var order = this.sortOrders[sortKey] || 1;
-      var heroes = this.heroes;
-
-      // TODO: This should be unnecessary. We are missing some Vue data binding.
-      if (typeof(heroes) == "undefined"){
-        heroes = this.listData;
-      }
+      // TODO: These 2 should be unnecessary. We are missing some Vue data binding.
+      var heroes = this.listData;
+      var filterKey = this.searchQuery;
 
       if (filterKey) {
         heroes = heroes.filter(function(row) {
