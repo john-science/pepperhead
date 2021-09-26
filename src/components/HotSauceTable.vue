@@ -1,150 +1,42 @@
 <template>
-  <div id="demo">
-    <h1>Hello, pepper heads!</h1>
-    <form id="search">
-      Search <input name="query" v-model="searchQuery" />
-    </form>
-    <br />
-    <demo-grid :heroes="gridData" :columns="gridColumns" :filter-key="searchQuery">
-    </demo-grid>
-  </div>
-</template>
-
-<template>
-<div id="grid-template">
-  <table>
-    <thead>
-      <tr>
-        <th v-for="key in columns" @click="sortBy(key)" :class="{ active: sortKey == key }">
-          {{ key | capitalize }}
-          <template v-if="key != 'food_pairings' && key != 'flavor'">
-            <span class="arrow" :class="sortOrders[key] > 0 ? 'asc' : 'dsc'">
-            </span>
-          <template v-else>
-          </template>
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr v-for="entry in filteredHeroes">
-        <td v-for="key in columns">
-          {{entry[key]}}
-        </td>
-      </tr>
-    </tbody>
+<div>
+  <h3>Hello, {{ followers }}!</h3>
+  <table class="center">
+    <tr>
+      <th>Sauce</th>
+      <th>SHU</th>
+      <th>Foods</th>
+    </tr>
+    <tr>
+      <td>Sriacha</td>
+      <td>2200</td>
+      <td>Eggs, Thai</td>
+    </tr>
+    <tr>
+      <td>Iguana Gold</td>
+      <td>6000</td>
+      <td>Sausages, Pretzels</td>
+    </tr>
   </table>
 </div>
 </template>
 
+
 <script>
 export default {
-  template: "#grid-template",
-  props: {
-    heroes: Array,
-    columns: Array,
-    filterKey: String
-  },
-  data: function() {
-    var sortOrders = {};
-    this.columns.forEach(function(key) {
-      sortOrders[key] = 1;
-    });
+  data:  function() {
     return {
-      sortKey: "",
-      sortOrders: sortOrders
-    };
-  },
-  computed: {
-    filteredHeroes: function() {
-      var sortKey = this.sortKey;
-      var filterKey = this.filterKey && this.filterKey.toLowerCase();
-      var order = this.sortOrders[sortKey] || 1;
-      var heroes = this.heroes;
-      if (filterKey) {
-        heroes = heroes.filter(function(row) {
-          return Object.keys(row).some(function(key) {
-            return (
-              String(row[key])
-              .toLowerCase()
-              .indexOf(filterKey) > -1
-            );
-          });
-        });
-      }
-      if (sortKey) {
-        heroes = heroes.slice().sort(function(a, b) {
-          a = a[sortKey];
-          b = b[sortKey];
-          return (a === b ? 0 : a > b ? 1 : -1) * order;
-        });
-      }
-      return heroes;
-    }
-  },
-  filters: {
-    capitalize: function(str) {
-      return str.charAt(0).toUpperCase() + str.slice(1).replaceAll("_", " ");
-    }
-  },
-  methods: {
-    sortBy: function(key) {
-      this.sortKey = key;
-      this.sortOrders[key] = this.sortOrders[key] * -1;
+      followers: 'Pepper Heads'
     }
   }
 }
 </script>
 
-<script>
-export default {
-  el: "#demo",
-  data: {
-    searchQuery: "",
-    gridColumns: ["sauce", "rating", "SHU", "food_pairings"],
-    gridData: [{
-        sauce: "Sriracha",
-        rating: 80,
-        SHU: 2200,
-        food_pairings: "Thai, Eggs"
-      },
-      {
-        sauce: "Tobasco",
-        rating: 20,
-        SHU: 3750,
-        food_pairings: "Eggs"
-      },
-      {
-        sauce: "Peri Peri - XX Hot",
-        rating: 90,
-        SHU: 35000,
-        food_pairings: "Eggs, grilled vegetables"
-      },
-      {
-        sauce: "Iguana Gold",
-        rating: 95,
-        SHU: 6000,
-        food_pairings: "Pretzels, Sausages"
-      }
-    ]
-  }
-}
-</script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
@@ -208,3 +100,4 @@ th.active .arrow {
   border-top: 4px solid #fff;
 }
 </style>
+
