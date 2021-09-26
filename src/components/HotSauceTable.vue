@@ -15,6 +15,9 @@
       <thead>
         <th v-for="header in headers" :key="header" @click="sortBy(header)" :class="{ active: sortKey == header }">
           {{ header | capitalize }}
+        <template v-if="header != 'food_pairings' && header != 'flavor'">
+          <span class="arrow" :class="sortOrders[header] > 0 ? 'asc' : 'dsc'"></span>
+        </template>
         </th>
       </thead>
       <tbody>
@@ -92,8 +95,10 @@ export default {
   },
   methods: {
     sortBy: function(key) {
-      this.sortKey = key;
-      this.sortOrders[key] = this.sortOrders[key] * -1;
+      if (key != "food_pairings" && key != "flavor") {
+        this.sortKey = key;
+        this.sortOrders[key] = this.sortOrders[key] * -1;
+      }
     }
   }
 };
