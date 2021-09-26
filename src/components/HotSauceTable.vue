@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h3>Hello, Pepper Heads!</h3>
+    <h3>Hot Sauce Reviews</h3>
+    <h4>by... some pepper head</h4>
 
     <!--
     // TODO: Get search working
