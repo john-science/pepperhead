@@ -8,7 +8,7 @@
     </form>
     <br />
 
-    <table class="center" :filter-key="searchQuery">
+    <table class="center">
       <thead>
         <th v-for="header in headers" :key="header" @click="sortBy(header)" :class="{ active: sortKey == header }">
           {{ header | capitalize }}
