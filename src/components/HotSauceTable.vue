@@ -18,7 +18,7 @@
         </th>
       </thead>
       <tbody>
-        <tr v-for="item in filteredHeroes" :key="item.sauce">
+        <tr v-for="item in filteredData" :key="item.sauce">
           <td v-for="header in headers" :key="header">{{ item[header] }}</td>
         </tr>
       </tbody>
@@ -37,13 +37,10 @@ let rawHeaders = Object.keys(rawData[0]);
 
 export default {
   props: {
-    heroes: Array,
     headers: Array,
-    filterKey: String
   },
   data: function() {
     this.headers = rawHeaders;
-    this.filterKey = "";
     this.sortKey = "";
     var sortOrders = {};
     this.headers.forEach(function(key) {
@@ -57,32 +54,32 @@ export default {
     }
   },
   computed: {
-    filteredHeroes: function() {
+    filteredData: function() {
       var sortKey = this.sortKey;
       var order = this.sortOrders[sortKey] || 1;
-      // TODO: These 2 should be unnecessary. We are missing some Vue data binding.
-      var heroes = this.listData;
-      var filterKey = this.searchQuery;
+      var data = this.listData;
+      // TODO: This should be unnecessary. We are missing some Vue data binding.
+      var sQuery = this.searchQuery;
 
-      if (filterKey) {
-        heroes = heroes.filter(function(row) {
+      if (sQuery) {
+        data = data.filter(function(row) {
           return Object.keys(row).some(function(key) {
             return (
               String(row[key])
               .toLowerCase()
-              .indexOf(filterKey) > -1
+              .indexOf(sQuery) > -1
             );
           });
         });
       }
       if (sortKey) {
-        heroes = heroes.slice().sort(function(a, b) {
+        data = data.slice().sort(function(a, b) {
           a = a[sortKey];
           b = b[sortKey];
           return (a === b ? 0 : a > b ? 1 : -1) * order;
         });
       }
-      return heroes;
+      return data;
     }
   },
   filters: {
