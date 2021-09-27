@@ -58,7 +58,7 @@ export default {
       var sortKey = this.sortKey;
       var order = this.sortOrders[sortKey] || 1;
       var data = this.listData;
-      // TODO: This should be unnecessary. We are missing some Vue data binding.
+      // TODO: Why is this necessary?
       var sQuery = this.searchQuery;
 
       if (sQuery) {
