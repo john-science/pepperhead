@@ -19,8 +19,9 @@
         </tbody>
       </table>
     </div>
-    <h3>Hot Sauce Reviews</h3>
-    <h4>by... Some Pepper Head</h4>
+    <h2>Hot Sauce Reviews</h2>
+    <p>by Some Pepper Head</p>
+    <br />
 
     <HotSauceTable msg="Hot Sauce Reviews"/>
 
@@ -44,7 +45,7 @@ export default {
 <style>
 html {
   background-color:#333333;
-  color:#cccccc;
+  color:#eeeeee;
   overflow-y:scroll;
   text-align:center;
 }
@@ -55,7 +56,7 @@ body {
 
 .header {
   display:block;
-  background-color:#d43800;
+  background-color:#9f2a00;
   color:#ffffff;
   padding-left:1em;
   padding-right:1em;
@@ -68,10 +69,9 @@ body {
 
 .header-logo {
   font-size:24px;
-  line-height:24px;
   margin:0px;
-  padding-top:1em;
-  padding-bottom:1em;
+  padding-top:.75em;
+  padding-bottom:.75em;
 }
 
 .nav-global {

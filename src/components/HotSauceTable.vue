@@ -94,8 +94,8 @@ export default {
 
 <style scoped>
 .center {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 body {
@@ -105,17 +105,12 @@ body {
 }
 
 table, th, td {
-  border: 2px solid #555555;
+  border: 2px solid #777777;
   border-collapse: collapse;
 }
 
-table {
-  border: 2px solid #d43800;
-  border-radius: 3px;
-}
-
 th {
-  background-color: #d43800;
+  background-color: #9f2a00;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
