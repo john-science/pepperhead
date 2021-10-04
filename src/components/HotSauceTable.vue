@@ -25,6 +25,7 @@
 
 
 <script>
+// TODO: THIS COMPONENT SHOULD TAKE THE JSON AS AN INPUT!!!
 import rawData from "../assets/hot_sauce_reviews.json";
 let rawHeaders = Object.keys(rawData[0]);
 
@@ -76,7 +77,11 @@ export default {
     }
   },
   filters: {
+    // TODO: Capitalize after the spaces
     capitalize: function(str) {
+      if (str.toUpperCase() === "SHU") {
+        return "~SHU";
+      }
       return str.charAt(0).toUpperCase() + str.slice(1).replaceAll("_", " ");
     }
   },

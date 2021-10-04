@@ -27,11 +27,12 @@
     <HotSauceTable msg="Hot Sauce Reviews"/>
 
     <br />
-    <p>The reviews above are obviously based on personal taste. I obviously like spicy sauces, but I also like to use <strong>a lot</strong> of sauce, so I tend to dislike vinegar-heavy sauces. Please
-    don't send me hate mail if you disagree with these ratings. Perhaps some day I will build a community hot sauce review site, where you can make your own voice heard.</p>
+    <p>The above are just my opinions, obviously. For instance, I'm not a big fan of Louisiana hot sauces. Also, I am only reviewing commercially available hot sauces.</p>
+    <br />
 
     <!-- TODO: Move WANTED list to a table, like  to its own component -->
-    <ul>
+    <h4>Hot Sauces I Want to Try</h4>
+    <ul style="text-align:left;">
       <li>Bonache - Piri Piri sauce - Washington state</li>
       <li>Mike's Fine Brines - Chipolte - Washington state</li>
       <li>Hot Girl Hot Saucei - Jamacian style - Washington state</li>
