@@ -104,24 +104,23 @@ body {
   color: #444;
 }
 
+table, th, td {
+  border: 2px solid #555555;
+  border-collapse: collapse;
+}
+
 table {
   border: 2px solid #d43800;
   border-radius: 3px;
-  background-color: #fff;
 }
 
 th {
   background-color: #d43800;
-  color: rgba(255, 255, 255, 0.66);
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-
-td {
-  background-color: #f9f9f9;
 }
 
 th,
