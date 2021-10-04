@@ -1,6 +1,24 @@
 <template>
   <div id="app">
-    <img alt="PepperHead logo" src="./assets/hot_sauces.png">
+    <div id="nav" class="header">
+      <table class="hidden-table">
+        <tbody>
+          <tr class="hidden-table">
+            <td>
+              <p class="header-logo"><a href="#">PepperHead</a></p>
+            </td>
+            <td>
+              <nav class="nav-global">
+                <ul>
+                  <li><a href="#">Reviews</a></li>
+                  <li><a href="#">Wanted</a></li>
+                </ul>
+              </nav>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
     <h3>Hot Sauce Reviews</h3>
     <h4>by... Some Pepper Head</h4>
 
@@ -24,12 +42,66 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+html {
+  background-color:#333333;
+  color:#cccccc;
+  overflow-y:scroll;
+  text-align:center;
+}
+
+body {
+  margin:0px;
+}
+
+.header {
+  display:block;
+  background-color:#d43800;
+  color:#ffffff;
+  padding-left:1em;
+  padding-right:1em;
+}
+
+.header a:active, .headder a:hover, .header a:link, .header a:visited {
+  color:#ffffff;
+  text-decoration:none;
+}
+
+.header-logo {
+  font-size:24px;
+  line-height:24px;
+  margin:0px;
+  padding-top:1em;
+  padding-bottom:1em;
+}
+
+.nav-global {
+  margin-top:0;
+  text-align:right;
+  width:15em;
+  float:right;
+}
+
+.nav-global ul {
+  list-style:none;
+  list-style-image:none;
+  margin:0;
+  padding:0;
+}
+
+.nav-global li {
+  display:inline-block;
+  line-height:normal;
+  letter-spacing:normal;
+  margin-right:16px;
+  word-spacing:normal;
+  vertical-align:middle;
+}
+
+.hidden-table {
+  border:0;
+  margin:0;
+  padding:0;
+  border-spacing:0;
+  width:90%;
 }
 </style>
