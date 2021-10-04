@@ -44,8 +44,8 @@ export default {
 
 <style>
 html {
-  background-color:#333333;
-  color:#eeeeee;
+  background-color:#333;
+  color:#eee;
   overflow-y:scroll;
   text-align:center;
 }
@@ -55,7 +55,10 @@ body {
 }
 
 h1,h2,h3,h4 {
-  color:red;
+  color:#eee;
+  background-color:#9f2a00;
+  margin:0px;
+  padding:.5em;
 }
 
 a:active, a:hover, a:link, a:visited {
@@ -71,7 +74,7 @@ a:active, a:hover, a:link, a:visited {
 
 .header-logo {
   font-size:24px;
-  font-weight: bold;
+  font-weight: bolder;
   font-family: monospace, monospace;
   margin:0px;
   padding-top:.75em;
@@ -81,10 +84,11 @@ a:active, a:hover, a:link, a:visited {
 .header-logo a:active, .header-logo a:hover, .header-logo a:link, .header-logo a:visited {
   color:#9f2a00;
   text-decoration:none;
+  font-weight: bolder;
 }
 
 .nav-global {
-  font-weight: bold;
+  font-weight: bolder;
   margin-top:0;
   text-align:right;
   width:15em;
@@ -94,6 +98,7 @@ a:active, a:hover, a:link, a:visited {
 .nav-global a:active, .nav-global a:hover, .nav-global a:link, .nav-global a:visited {
   color:#017924;
   text-decoration:none;
+  font-weight: bolder;
 }
 
 .nav-global ul {
