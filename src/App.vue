@@ -30,7 +30,7 @@
     <p>The above are just my opinions, obviously. For instance, I'm not a big fan of Louisiana hot sauces. Also, I am only reviewing commercially available hot sauces.</p>
     <br />
 
-    <!-- TODO: Move WANTED list to a table, like  to its own component -->
+    <!-- TODO: Move WANTED list to a table, and its own component -->
     <h4>Hot Sauces I Want to Try</h4>
     <ul style="text-align:left;">
       <li>Bonache - Piri Piri sauce - Washington state</li>

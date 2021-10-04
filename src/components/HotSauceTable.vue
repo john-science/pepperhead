@@ -26,6 +26,7 @@
 
 <script>
 // TODO: THIS COMPONENT SHOULD TAKE THE JSON AS AN INPUT!!!
+// TODO: SUPPORT SHU RANGE!!
 import rawData from "../assets/hot_sauce_reviews.json";
 let rawHeaders = Object.keys(rawData[0]);
 

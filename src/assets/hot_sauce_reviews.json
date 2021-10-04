@@ -1,7 +1,7 @@
 [
 {
 "sauce": "Sriracha",
-"brewery": "Hoy Fung Foods, Inc",
+"brewery": "Hoy Fung Foods",
 "rating": 80,
 "SHU": 2200,
 "times_purchased": 36,
@@ -11,7 +11,7 @@
 },
 {
 "sauce": "Tobasco",
-"brewery": "McIlhenny Co",
+"brewery": "McIlhenny",
 "rating": 20,
 "SHU": 3750,
 "times_purchased": 0,
@@ -21,7 +21,7 @@
 },
 {
 "sauce": "Peri Peri - XX Hot",
-"brewery": "Nando's Ltd",
+"brewery": "Nando's",
 "rating": 90,
 "SHU": 35000,
 "times_purchased": 2,
@@ -32,7 +32,7 @@
 
 {
 "sauce": "Iguana Gold",
-"brewery": "Half Moon Bay Trading Co",
+"brewery": "Half Moon Bay Trading",
 "rating": 95,
 "SHU": 6000,
 "times_purchased": 1,
@@ -76,7 +76,7 @@
 
 {
 "sauce": "Cholula - Original",
-"brewery": "Spicy Liquid, LLC",
+"brewery": "Spicy Liquid",
 "rating": 75,
 "SHU": 3600,
 "times_purchased": 12,
@@ -87,7 +87,7 @@
 
 {
 "sauce": "Red Habenero",
-"brewery": "El Yucateco Co",
+"brewery": "El Yucateco",
 "rating": 75,
 "SHU": 5790,
 "times_purchased": 1,
@@ -97,7 +97,7 @@
 },
 {
 "sauce": "Green Habenero",
-"brewery": "El Yucateco Co",
+"brewery": "El Yucateco",
 "rating": 78,
 "SHU": 9000,
 "times_purchased": 1,
@@ -107,7 +107,7 @@
 },
 {
 "sauce": "Caribbean Habenero",
-"brewery": "El Yucateco Co",
+"brewery": "El Yucateco",
 "rating": 90,
 "SHU": 5400,
 "times_purchased": 1,
@@ -117,7 +117,7 @@
 },
 {
 "sauce": "Kutbil-Ik XXXtra Hot Habenero",
-"brewery": "El Yucateco Co",
+"brewery": "El Yucateco",
 "rating": 80,
 "SHU": 11600,
 "times_purchased": 1,
