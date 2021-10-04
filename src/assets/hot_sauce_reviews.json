@@ -6,7 +6,7 @@
 "SHU": 2200,
 "times_purchased": 36,
 "food_pairings": "Thai, Eggs",
-"flavor": "Sweet-forward, but still tangy. Nice and thick, it won't run off your eggs. A classic sauce."
+"flavors": "Sweet, funky, tangy"
 },
 {
 "sauce": "Tobasco",
@@ -15,7 +15,7 @@
 "SHU": 3750,
 "times_purchased": 0,
 "food_pairings": "Eggs",
-"flavor": "Vinegar is the over-riding flavor, sadly. But distantly, a lot of wonderful depth of flavor from being aged in whiskey barrels for years."
+"flavors": "Vinegar, smokey"
 },
 {
 "sauce": "Peri Peri - XX Hot",
@@ -24,7 +24,7 @@
 "SHU": 35000,
 "times_purchased": 2,
 "food_pairings": "Eggs, grilled vegetables",
-"flavor": "Deep earthy flavor. The flavor of the birds-eye chiles is up front, but paired will with  onion, garlic and spices."
+"flavors": "Deep, earthy, chiles, onion, spices"
 },
 
 {
@@ -34,7 +34,7 @@
 "SHU": 6000,
 "times_purchased": 1,
 "food_pairings": "Pretzels, Sausages",
-"flavor": "A great mustardy flavor, with a kick. There is also a lot of onion and carrot there, to round out the flavor."
+"flavors": "mustard, peppers, onion, carrot"
 },
 
 {
@@ -44,7 +44,7 @@
 "SHU": 6500,
 "times_purchased": 1,
 "food_pairings": "Thai, eggs, sandwiches",
-"flavor": "All fruit and funk, in the best way. Mango and heat."
+"flavors": "fruit, funk, mango, peppers"
 },
 
 {
@@ -54,7 +54,7 @@
 "SHU": 7000,
 "times_purchased": 1,
 "food_pairings": "French fries, eggs",
-"flavor": "Mostly just vinegar and heat, but with a nice salt-and-pepper after taste."
+"flavors": "vinegar, peppers, salt-and-pepper"
 },
 
 {
@@ -64,7 +64,7 @@
 "SHU": 45000,
 "times_purchased": 1,
 "food_pairings": "eggs, sandwiches",
-"flavor": "Some funky tang, but mostly just vinegar."
+"flavors": "vinegar, peppers, funk"
 },
 
 {
@@ -74,7 +74,7 @@
 "SHU": 3600,
 "times_purchased": 12,
 "food_pairings": "Pizza, Eggs",
-"flavor": "A bit less funky than Sriracha. Vinegar forward with a wonderful smokiness."
+"flavors": "vinegar, smoky, peppers, funk"
 },
 
 {
@@ -84,7 +84,7 @@
 "SHU": 5790,
 "times_purchased": 1,
 "food_pairings": "fries, burgers",
-"flavor": "Tomato-forward, but without the sugar of ketchup. Rich and surprisingly complex. Maybe more hot than balanced."
+"flavors": "Tomato, peppers, sugar"
 },
 {
 "sauce": "Green Habenero",
@@ -93,7 +93,7 @@
 "SHU": 9000,
 "times_purchased": 1,
 "food_pairings": "eggs, tacos",
-"flavor": "The ingredients just say peppers, but there is something uniquely El Yucateco that I just love about this flavor."
+"flavors": "green peppers"
 },
 {
 "sauce": "Caribbean Habenero",
@@ -102,7 +102,7 @@
 "SHU": 5400,
 "times_purchased": 1,
 "food_pairings": "rice and beans, corn on the cob, sandwiches",
-"flavor": "Carrots and onions all rounded out to a really distinctive, rich flavor."
+"flavors": "Carrot, onion, pepper"
 },
 {
 "sauce": "Kutbil-Ik XXXtra Hot Habenero",
@@ -111,7 +111,7 @@
 "SHU": 11600,
 "times_purchased": 1,
 "food_pairings": "burgers",
-"flavor": "Tomatoes, onions and spices lead to a really well-round flavor for something with so much kick."
+"flavors": "Tomatoes, onions, pepper, spices"
 },
 {
 "sauce": "Habenero",
@@ -120,6 +120,6 @@
 "SHU": 35000,
 "times_purchased": 1,
 "food_pairings": "Mexican, Mediterranean",
-"flavor": "Carrots and onion give a really well-rounded flavor with the citrus-y habenaros."
+"flavors": "carrot, citrus, habanero, onion"
 }
 ]
