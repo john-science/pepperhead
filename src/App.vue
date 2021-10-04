@@ -54,31 +54,46 @@ body {
   margin:0px;
 }
 
+h1,h2,h3,h4 {
+  color:red;
+}
+
+a:active, a:hover, a:link, a:visited {
+  color:green;
+  text-decoration:none;
+}
+
 .header {
   display:block;
-  background-color:#9f2a00;
-  color:#ffffff;
   padding-left:1em;
   padding-right:1em;
 }
 
-.header a:active, .headder a:hover, .header a:link, .header a:visited {
-  color:#ffffff;
-  text-decoration:none;
-}
-
 .header-logo {
   font-size:24px;
+  font-weight: bold;
+  font-family: monospace, monospace;
   margin:0px;
   padding-top:.75em;
   padding-bottom:.75em;
 }
 
+.header-logo a:active, .header-logo a:hover, .header-logo a:link, .header-logo a:visited {
+  color:#9f2a00;
+  text-decoration:none;
+}
+
 .nav-global {
+  font-weight: bold;
   margin-top:0;
   text-align:right;
   width:15em;
   float:right;
+}
+
+.nav-global a:active, .nav-global a:hover, .nav-global a:link, .nav-global a:visited {
+  color:#017924;
+  text-decoration:none;
 }
 
 .nav-global ul {
