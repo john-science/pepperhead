@@ -111,6 +111,15 @@
 "SHU": 11600,
 "times_purchased": 1,
 "food_pairings": "burgers",
-"flavor": "Tomatoes, onions and spices lead to a really well-round flavor for something with so much KICK."
+"flavor": "Tomatoes, onions and spices lead to a really well-round flavor for something with so much kick."
+},
+{
+"sauce": "Habenero",
+"brewery": "Yellowbird",
+"rating": 90,
+"SHU": 35000,
+"times_purchased": 1,
+"food_pairings": "Mexican, Mediterranean",
+"flavor": "Carrots and onion give a really well-rounded flavor with the citrus-y habenaros."
 }
 ]
