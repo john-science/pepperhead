@@ -78,12 +78,11 @@ export default {
     }
   },
   filters: {
-    // TODO: Capitalize after the spaces
     capitalize: function(str) {
       if (str.toUpperCase() === "SHU") {
         return "~SHU";
       }
-      return str.charAt(0).toUpperCase() + str.slice(1).replaceAll("_", " ");
+      return str.replaceAll("_", " ").replace(/\b\w/g, (c) => c.toUpperCase());
     }
   },
   methods: {
