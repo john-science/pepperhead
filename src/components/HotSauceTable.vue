@@ -7,7 +7,7 @@
 
     <table class="center">
       <thead>
-        <th v-for="header in headers" :key="header" @click="sortBy(header)" :class="{ active: sortKey == header }">
+        <th v-for="header in headers.slice(0, -1)" :key="header" @click="sortBy(header)" :class="{ active: sortKey == header }">
           {{ header | capitalize }}
         <template v-if="!noSorts.includes(header)">
           <span class="arrow" :class="sortOrders[header] > 0 ? 'asc' : 'dsc'"></span>
@@ -16,7 +16,13 @@
       </thead>
       <tbody>
         <tr v-for="item in filteredData" :key="item.sauce">
-          <td v-for="header in headers" :key="header">{{ item[header] }}</td>
+          <template v-if="item['link']">
+            <td><a :href="item['link']" target="_blank">{{ item["sauce"] }}</a></td>
+          </template>
+          <template v-else>
+            <td>{{ item["sauce"] }}</td>
+          </template>
+          <td v-for="header in headers.slice(1, -1)" :key="header">{{ item[header] }}</td>
         </tr>
       </tbody>
     </table>
@@ -55,7 +61,6 @@ export default {
       var sortKey = this.sortKey;
       var order = this.sortOrders[sortKey] || 1;
       var data = this.listData;
-      // TODO: Why is this necessary?
       var sQuery = this.searchQuery;
 
       if (sQuery) {

@@ -7,7 +7,8 @@
 "times_purchased": 36,
 "thick": "Y",
 "nosort_food_pairings": "Thai, Eggs",
-"nosort_flavors": "Sweet, funky, tangy"
+"nosort_flavors": "Sweet, funky, tangy",
+"link": "https://www.huyfong.com/"
 },
 {
 "sauce": "Tobasco",
@@ -17,7 +18,8 @@
 "times_purchased": 0,
 "thick": "N",
 "nosort_food_pairings": "Eggs",
-"nosort_flavors": "Vinegar, smokey"
+"nosort_flavors": "Vinegar, smokey",
+"link": "https://www.tabasco.com/hot-sauces/original-red-sauce/"
 },
 {
 "sauce": "Peri Peri - XX Hot",
@@ -27,7 +29,8 @@
 "times_purchased": 2,
 "thick": "Y",
 "nosort_food_pairings": "Eggs, grilled vegetables",
-"nosort_flavors": "Deep, earthy, chiles, onion, spices"
+"nosort_flavors": "Deep, earthy, chiles, onion, spices",
+"link": "https://www.nandosperiperi.com/peri-products/sauces/extra-extra-hot-peri-peri-sauce"
 },
 
 {
@@ -38,7 +41,8 @@
 "times_purchased": 1,
 "thick": "Y",
 "nosort_food_pairings": "Pretzels, Sausages",
-"nosort_flavors": "mustard, peppers, onion, carrot"
+"nosort_flavors": "mustard, peppers, onion, carrot",
+"link": "https://www.halfmoonbaytrading.com/sauces/iguana-gold-island-pepper-sauce"
 },
 
 {
@@ -49,18 +53,20 @@
 "times_purchased": 1,
 "thick": "Y",
 "nosort_food_pairings": "Thai, eggs, sandwiches",
-"nosort_flavors": "fruit, funk, mango, peppers"
+"nosort_flavors": "fruit, funk, mango, peppers",
+"link": "https://highriversauces.com/tears-of-the-sun/"
 },
 
 {
 "sauce": "Howler Monkey Sauce - Hot",
-"brewery": "Howler Monkey Sauce",
+"brewery": "Panama Hot Sauce",
 "rating": 55,
 "SHU": 7000,
 "times_purchased": 1,
 "thick": "N",
 "nosort_food_pairings": "French fries, eggs",
-"nosort_flavors": "vinegar, peppers, salt-and-pepper"
+"nosort_flavors": "vinegar, peppers, salt-and-pepper",
+"link": "https://www.panamahotsauce.com/"
 },
 
 {
@@ -71,7 +77,8 @@
 "times_purchased": 1,
 "thick": "N",
 "nosort_food_pairings": "eggs, sandwiches",
-"nosort_flavors": "vinegar, peppers, funk"
+"nosort_flavors": "vinegar, peppers, funk",
+"link": "https://melindas.com"
 },
 
 {
@@ -82,7 +89,8 @@
 "times_purchased": 12,
 "thick": "N",
 "nosort_food_pairings": "Pizza, Eggs",
-"nosort_flavors": "vinegar, smoky, peppers, funk"
+"nosort_flavors": "vinegar, smoky, peppers, funk",
+"link": "https://www.cholula.com/"
 },
 
 {
@@ -93,7 +101,8 @@
 "times_purchased": 1,
 "thick": "Y",
 "nosort_food_pairings": "fries, burgers",
-"nosort_flavors": "Tomato, peppers, sugar"
+"nosort_flavors": "Tomato, peppers, sugar",
+"link": "https://www.elyucateco.com/"
 },
 {
 "sauce": "Green Habenero",
@@ -103,7 +112,8 @@
 "times_purchased": 1,
 "thick": "Y",
 "nosort_food_pairings": "eggs, tacos",
-"nosort_flavors": "green peppers"
+"nosort_flavors": "green peppers",
+"link": "https://www.elyucateco.com/"
 },
 {
 "sauce": "Caribbean Habenero",
@@ -113,7 +123,8 @@
 "times_purchased": 1,
 "thick": "Y",
 "nosort_food_pairings": "rice and beans, corn on the cob, sandwiches",
-"nosort_flavors": "Carrot, onion, pepper"
+"nosort_flavors": "Carrot, onion, pepper",
+"link": "https://www.elyucateco.com/"
 },
 {
 "sauce": "Kutbil-Ik XXXtra Hot Habenero",
@@ -123,7 +134,8 @@
 "times_purchased": 1,
 "thick": "Y",
 "nosort_food_pairings": "burgers",
-"nosort_flavors": "Tomatoes, onions, pepper, spices"
+"nosort_flavors": "Tomatoes, onions, pepper, spices",
+"link": "https://www.elyucateco.com/"
 },
 {
 "sauce": "Habenero",
@@ -133,6 +145,7 @@
 "times_purchased": 1,
 "thick": "Y",
 "nosort_food_pairings": "Mexican, Mediterranean",
-"nosort_flavors": "carrot, citrus, habanero, onion"
+"nosort_flavors": "carrot, citrus, habanero, onion",
+"link": "https://www.yellowbirdfoods.com/"
 }
 ]
