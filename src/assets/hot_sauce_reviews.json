@@ -6,8 +6,8 @@
 "SHU": 2200,
 "times_purchased": 36,
 "thick": "Y",
-"food_pairings": "Thai, Eggs",
-"flavors": "Sweet, funky, tangy"
+"nosort_food_pairings": "Thai, Eggs",
+"nosort_flavors": "Sweet, funky, tangy"
 },
 {
 "sauce": "Tobasco",
@@ -16,8 +16,8 @@
 "SHU": 3750,
 "times_purchased": 0,
 "thick": "N",
-"food_pairings": "Eggs",
-"flavors": "Vinegar, smokey"
+"nosort_food_pairings": "Eggs",
+"nosort_flavors": "Vinegar, smokey"
 },
 {
 "sauce": "Peri Peri - XX Hot",
@@ -26,8 +26,8 @@
 "SHU": 35000,
 "times_purchased": 2,
 "thick": "Y",
-"food_pairings": "Eggs, grilled vegetables",
-"flavors": "Deep, earthy, chiles, onion, spices"
+"nosort_food_pairings": "Eggs, grilled vegetables",
+"nosort_flavors": "Deep, earthy, chiles, onion, spices"
 },
 
 {
@@ -37,8 +37,8 @@
 "SHU": 6000,
 "times_purchased": 1,
 "thick": "Y",
-"food_pairings": "Pretzels, Sausages",
-"flavors": "mustard, peppers, onion, carrot"
+"nosort_food_pairings": "Pretzels, Sausages",
+"nosort_flavors": "mustard, peppers, onion, carrot"
 },
 
 {
@@ -48,8 +48,8 @@
 "SHU": 6500,
 "times_purchased": 1,
 "thick": "Y",
-"food_pairings": "Thai, eggs, sandwiches",
-"flavors": "fruit, funk, mango, peppers"
+"nosort_food_pairings": "Thai, eggs, sandwiches",
+"nosort_flavors": "fruit, funk, mango, peppers"
 },
 
 {
@@ -59,8 +59,8 @@
 "SHU": 7000,
 "times_purchased": 1,
 "thick": "N",
-"food_pairings": "French fries, eggs",
-"flavors": "vinegar, peppers, salt-and-pepper"
+"nosort_food_pairings": "French fries, eggs",
+"nosort_flavors": "vinegar, peppers, salt-and-pepper"
 },
 
 {
@@ -70,8 +70,8 @@
 "SHU": 45000,
 "times_purchased": 1,
 "thick": "N",
-"food_pairings": "eggs, sandwiches",
-"flavors": "vinegar, peppers, funk"
+"nosort_food_pairings": "eggs, sandwiches",
+"nosort_flavors": "vinegar, peppers, funk"
 },
 
 {
@@ -81,8 +81,8 @@
 "SHU": 3600,
 "times_purchased": 12,
 "thick": "N",
-"food_pairings": "Pizza, Eggs",
-"flavors": "vinegar, smoky, peppers, funk"
+"nosort_food_pairings": "Pizza, Eggs",
+"nosort_flavors": "vinegar, smoky, peppers, funk"
 },
 
 {
@@ -92,8 +92,8 @@
 "SHU": 5790,
 "times_purchased": 1,
 "thick": "Y",
-"food_pairings": "fries, burgers",
-"flavors": "Tomato, peppers, sugar"
+"nosort_food_pairings": "fries, burgers",
+"nosort_flavors": "Tomato, peppers, sugar"
 },
 {
 "sauce": "Green Habenero",
@@ -102,8 +102,8 @@
 "SHU": 9000,
 "times_purchased": 1,
 "thick": "Y",
-"food_pairings": "eggs, tacos",
-"flavors": "green peppers"
+"nosort_food_pairings": "eggs, tacos",
+"nosort_flavors": "green peppers"
 },
 {
 "sauce": "Caribbean Habenero",
@@ -112,8 +112,8 @@
 "SHU": 5400,
 "times_purchased": 1,
 "thick": "Y",
-"food_pairings": "rice and beans, corn on the cob, sandwiches",
-"flavors": "Carrot, onion, pepper"
+"nosort_food_pairings": "rice and beans, corn on the cob, sandwiches",
+"nosort_flavors": "Carrot, onion, pepper"
 },
 {
 "sauce": "Kutbil-Ik XXXtra Hot Habenero",
@@ -122,8 +122,8 @@
 "SHU": 11600,
 "times_purchased": 1,
 "thick": "Y",
-"food_pairings": "burgers",
-"flavors": "Tomatoes, onions, pepper, spices"
+"nosort_food_pairings": "burgers",
+"nosort_flavors": "Tomatoes, onions, pepper, spices"
 },
 {
 "sauce": "Habenero",
@@ -132,7 +132,7 @@
 "SHU": 35000,
 "times_purchased": 1,
 "thick": "Y",
-"food_pairings": "Mexican, Mediterranean",
-"flavors": "carrot, citrus, habanero, onion"
+"nosort_food_pairings": "Mexican, Mediterranean",
+"nosort_flavors": "carrot, citrus, habanero, onion"
 }
 ]

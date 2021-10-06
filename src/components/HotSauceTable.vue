@@ -9,7 +9,7 @@
       <thead>
         <th v-for="header in headers" :key="header" @click="sortBy(header)" :class="{ active: sortKey == header }">
           {{ header | capitalize }}
-        <template v-if="header != 'food_pairings' && header != 'flavors'">
+        <template v-if="!noSorts.includes(header)">
           <span class="arrow" :class="sortOrders[header] > 0 ? 'asc' : 'dsc'"></span>
         </template>
         </th>
@@ -28,6 +28,8 @@
 // TODO: THIS COMPONENT SHOULD TAKE THE JSON AS AN INPUT!!!
 import rawData from "../assets/hot_sauce_reviews.json";
 let rawHeaders = Object.keys(rawData[0]);
+const noSortStr = "nosort_";
+
 
 export default {
   props: {
@@ -36,6 +38,7 @@ export default {
   data: function() {
     this.headers = rawHeaders;
     this.sortKey = "";
+    this.noSorts = rawHeaders.filter(word => word.startsWith(noSortStr));
     var sortOrders = {};
     this.headers.forEach(function(key) {
       sortOrders[key] = 1;
@@ -81,12 +84,12 @@ export default {
       if (str.toUpperCase() === "SHU") {
         return "~SHU";
       }
-      return str.replaceAll("_", " ").replace(/\b\w/g, (c) => c.toUpperCase());
+      return str.replace(noSortStr, "").replaceAll("_", " ").replace(/\b\w/g, (c) => c.toUpperCase());
     }
   },
   methods: {
     sortBy: function(key) {
-      if (key != "food_pairings" && key != "flavors") {
+      if (!this.noSorts.includes(key)) {
         this.sortKey = key;
         this.sortOrders[key] = this.sortOrders[key] * -1;
       }
@@ -98,8 +101,8 @@ export default {
 
 <style scoped>
 .center {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
