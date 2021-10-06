@@ -31,7 +31,7 @@
 
 
 <script>
-// TODO: THIS COMPONENT SHOULD TAKE THE JSON AS AN INPUT!!!
+// All data should be loaded from an external JSON file
 import rawData from "../assets/hot_sauce_reviews.json";
 let rawHeaders = Object.keys(rawData[0]);
 const noSortStr = "nosort_";
