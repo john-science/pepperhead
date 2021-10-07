@@ -18,3 +18,9 @@
 Well, it's that time again:
 
 > Time to learn another JavaScript Framework.
+
+#### Multi-Page Vue.js Apps
+
+This was more work than in needed to be. And very poorly documented on the vue.js site.
+
+I (loosely) followed the example [here](https://github.com/chriscalo/vue-multipage).

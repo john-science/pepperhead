@@ -9,7 +9,7 @@
     <HotSauceTable />
 
     <br />
-    <p>The above are just my opinions, obviously. For instance, I'm not a big fan of Louisiana hot sauces. Also, I am only reviewing commercially available hot sauces.</p>
+    <p>The above are just, like... my opinions, man.</p>
     <br />
   </div>
 </template>

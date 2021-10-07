@@ -5,12 +5,12 @@ module.exports = {
     'index': {
       entry: './src/entry/main.js',
       template: 'public/index.html',
-      title: 'Hot Sauce Reviews by Some Pepper Head',
+      title: 'Hot Sauce Reviews',
     },
     'wanted': {
       entry: './src/entry/wanted/index.js',
       template: 'public/wanted.html',
-      title: 'Sauces I want to try',
+      title: 'Sauces I Want',
     }
   }
 }
