@@ -9,8 +9,8 @@
           <td>
             <nav class="nav-global">
               <ul>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">Wanted</a></li>
+                <li><a href="/">Reviews</a></li>
+                <li><a href="/wanted">Wanted</a></li>
               </ul>
             </nav>
           </td>

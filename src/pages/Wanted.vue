@@ -1,19 +1,8 @@
 <template>
-  <div id="app">
+  <div id="wanted">
     <NavBar />
 
-    <h2>Hot Sauce Reviews</h2>
-    <p>by Some Pepper Head</p>
-    <br />
-
-    <HotSauceTable />
-
-    <br />
-    <p>The above are just my opinions, obviously. For instance, I'm not a big fan of Louisiana hot sauces. Also, I am only reviewing commercially available hot sauces.</p>
-    <br />
-
-    <!-- TODO: Move WANTED list to a table, and its own component -->
-    <h4>Hot Sauces I Want to Try</h4>
+    <h2>Hot Sauces I Want to Try</h2>
     <ul style="text-align:left;">
       <li>Bonache - Piri Piri sauce - Washington state</li>
       <li>Mike's Fine Brines - Chipolte - Washington state</li>
@@ -30,46 +19,17 @@
 </template>
 
 <script>
-import NavBar from './components/NavBar.vue'
-import HotSauceTable from './components/HotSauceTable.vue'
+  import NavBar from '@/components/NavBar.vue';
 
-export default {
-  name: 'App',
-  components: {
-    NavBar,
-    HotSauceTable
-  }
-}
+  export default {
+    // name: 'Wanted',
+    components: {
+      NavBar
+    }
+  };
 </script>
 
-<style>
-html {
-  background-color:#333;
-  color:#eee;
-  overflow-y:scroll;
-  text-align:center;
-}
+<style scoped>
 
-body {
-  margin:0px;
-}
-
-h1,h2,h3,h4 {
-  color:#eee;
-  background-color:#9f2a00;
-  margin:0px;
-}
-
-h1,h2 {
-  padding:.5em;
-}
-
-h3,h4 {
-  padding:.25em;
-}
-
-a:active, a:hover, a:link, a:visited {
-  color:green;
-  text-decoration:none;
-}
 </style>
+
