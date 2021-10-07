@@ -4,7 +4,7 @@
       <tbody>
         <tr class="hidden-table">
           <td>
-            <p class="header-logo"><a href="#">PepperHead</a></p>
+            <p class="header-logo"><a href="/pepperhead/">PepperHead</a></p>
           </td>
           <td>
             <nav class="nav-global">
