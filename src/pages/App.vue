@@ -15,8 +15,9 @@
 </template>
 
 <script>
-import NavBar from '@/components/NavBar.vue'
-import HotSauceTable from '@/components/HotSauceTable.vue'
+import NavBar from '@/components/NavBar.vue';
+import HotSauceTable from '@/components/HotSauceTable.vue';
+import "@/global-style.css";
 
 export default {
   name: 'App',
@@ -28,33 +29,4 @@ export default {
 </script>
 
 <style>
-html {
-  background-color:#333;
-  color:#eee;
-  overflow-y:scroll;
-  text-align:center;
-}
-
-body {
-  margin:0px;
-}
-
-h1,h2,h3,h4 {
-  color:#eee;
-  background-color:#9f2a00;
-  margin:0px;
-}
-
-h1,h2 {
-  padding:.5em;
-}
-
-h3,h4 {
-  padding:.25em;
-}
-
-a:active, a:hover, a:link, a:visited {
-  color:green;
-  text-decoration:none;
-}
 </style>

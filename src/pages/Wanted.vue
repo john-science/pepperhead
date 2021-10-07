@@ -20,9 +20,10 @@
 
 <script>
   import NavBar from '@/components/NavBar.vue';
+  import "@/global-style.css";
 
   export default {
-    // name: 'Wanted',
+    name: 'Wanted',
     components: {
       NavBar
     }
@@ -30,6 +31,5 @@
 </script>
 
 <style scoped>
-
 </style>
 
