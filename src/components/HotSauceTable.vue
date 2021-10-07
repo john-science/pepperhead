@@ -31,76 +31,76 @@
 
 
 <script>
-// All data should be loaded from an external JSON file
-import rawData from "../assets/hot_sauce_reviews.json";
-let rawHeaders = Object.keys(rawData[0]);
-const noSortStr = "nosort_";
+  // All data should be loaded from an external JSON file
+  import rawData from "../assets/hot_sauce_reviews.json";
+  let rawHeaders = Object.keys(rawData[0]);
+  const noSortStr = "nosort_";
 
 
-export default {
-  props: {
-    headers: Array,
-  },
-  data: function() {
-    this.headers = rawHeaders;
-    this.sortKey = "";
-    this.noSorts = rawHeaders.filter(word => word.startsWith(noSortStr));
-    var sortOrders = {};
-    this.headers.forEach(function(key) {
-      sortOrders[key] = 1;
-    });
-    return {
-      sortKey: "",
-      searchQuery: "",
-      sortOrders: sortOrders,
-      listData: rawData,
-    }
-  },
-  computed: {
-    filteredData: function() {
-      var sortKey = this.sortKey;
-      var order = this.sortOrders[sortKey] || 1;
-      var data = this.listData;
-      var sQuery = this.searchQuery;
+  export default {
+    props: {
+      headers: Array,
+    },
+    data: function() {
+      this.headers = rawHeaders;
+      this.sortKey = "";
+      this.noSorts = rawHeaders.filter(word => word.startsWith(noSortStr));
+      var sortOrders = {};
+      this.headers.forEach(function(key) {
+        sortOrders[key] = 1;
+      });
+      return {
+        sortKey: "",
+        searchQuery: "",
+        sortOrders: sortOrders,
+        listData: rawData,
+      }
+    },
+    computed: {
+      filteredData: function() {
+        var sortKey = this.sortKey;
+        var order = this.sortOrders[sortKey] || 1;
+        var data = this.listData;
+        var sQuery = this.searchQuery;
 
-      if (sQuery) {
-        data = data.filter(function(row) {
-          return Object.keys(row).some(function(key) {
-            return (
-              String(row[key])
-              .toLowerCase()
-              .indexOf(sQuery) > -1
-            );
+        if (sQuery) {
+          data = data.filter(function(row) {
+            return Object.keys(row).some(function(key) {
+              return (
+                String(row[key])
+                .toLowerCase()
+                .indexOf(sQuery) > -1
+              );
+            });
           });
-        });
+        }
+        if (sortKey) {
+          data = data.slice().sort(function(a, b) {
+            a = a[sortKey];
+            b = b[sortKey];
+            return (a === b ? 0 : a > b ? 1 : -1) * order;
+          });
+        }
+        return data;
       }
-      if (sortKey) {
-        data = data.slice().sort(function(a, b) {
-          a = a[sortKey];
-          b = b[sortKey];
-          return (a === b ? 0 : a > b ? 1 : -1) * order;
-        });
+    },
+    filters: {
+      capitalize: function(str) {
+        if (str.toUpperCase() === "SHU") {
+          return "~SHU";
+        }
+        return str.replace(noSortStr, "").replaceAll("_", " ").replace(/\b\w/g, (c) => c.toUpperCase());
       }
-      return data;
+    },
+    methods: {
+      sortBy: function(key) {
+        if (!this.noSorts.includes(key)) {
+          this.sortKey = key;
+          this.sortOrders[key] = this.sortOrders[key] * -1;
+        }
+      }
     }
-  },
-  filters: {
-    capitalize: function(str) {
-      if (str.toUpperCase() === "SHU") {
-        return "~SHU";
-      }
-      return str.replace(noSortStr, "").replaceAll("_", " ").replace(/\b\w/g, (c) => c.toUpperCase());
-    }
-  },
-  methods: {
-    sortBy: function(key) {
-      if (!this.noSorts.includes(key)) {
-        this.sortKey = key;
-        this.sortOrders[key] = this.sortOrders[key] * -1;
-      }
-    }
-  }
-};
+  };
 </script>
 
 

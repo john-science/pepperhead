@@ -3,7 +3,7 @@
     <NavBar />
 
     <h2>Hot Sauces I Want to Try</h2>
-    <ul style="text-align:left;">
+    <ul class="big-list">
       <li>Bonache - Piri Piri sauce - Washington state</li>
       <li>Mike's Fine Brines - Chipolte - Washington state</li>
       <li>Hot Girl Hot Saucei - Jamacian style - Washington state</li>
@@ -31,5 +31,9 @@
 </script>
 
 <style scoped>
+.big-list {
+  text-align: left;
+  margin-left: 25%;
+}
 </style>
 
