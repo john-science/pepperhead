@@ -1,3 +1,8 @@
+:root {
+  --pepper-red:#9f2a00;
+  --pepper-green:green;
+}
+
 html {
   background-color:rgb(1,4,9);
   color:#eee;
@@ -11,7 +16,7 @@ body {
 
 h1,h2,h3,h4 {
   color:#eee;
-  background-color:#9f2a00;
+  background-color:var(--pepper-red);
   margin:0px;
 }
 
@@ -23,7 +28,12 @@ h3,h4 {
   padding:.25em;
 }
 
-a:active, a:hover, a:link, a:visited {
-  color:green;
+a:active, a:link, a:visited {
+  color:var(--pepper-green);
+  text-decoration:none;
+}
+
+a:hover {
+  color:var(--pepper-red);
   text-decoration:none;
 }
