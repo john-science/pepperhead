@@ -117,8 +117,17 @@ body {
 }
 
 table, th, td {
-  border: 2px solid #777777;
+  border: 1px solid #777777;
   border-collapse: collapse;
+  color:rgb(201, 209, 217);
+}
+
+tr {
+  background-color: #191919;
+}
+
+tr:hover {
+  background-color: #2b2b2b;
 }
 
 th {
