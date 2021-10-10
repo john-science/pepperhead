@@ -34,7 +34,7 @@
   padding-top:.75em;
   padding-bottom:.75em;
   font-size: 24px;
-  font-weight: bolder;
+  font-weight: normal;
   color: #ffc9c7;
   animation: neon 0.1s ease-in-out infinite alternate;
 }
@@ -42,12 +42,13 @@
 .header-logo a:active, .header-logo a:link, .header-logo a:visited {
   color: #ffc9c7;
   text-decoration:none;
+  font-weight: normal;
 }
 
 .header-logo a:hover {
   color: #ffa3a0;
   text-decoration:none;
-  font-weight: normal;
+  font-weight: bolder;
 }
 
 /*-- Animation header-logo --*/
