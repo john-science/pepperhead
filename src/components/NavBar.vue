@@ -29,24 +29,48 @@
 }
 
 .header-logo {
-  font-size:24px;
-  font-weight: bolder;
   font-family: monospace, monospace;
   margin:0px;
   padding-top:.75em;
   padding-bottom:.75em;
+  font-size: 24px;
+  font-weight: bolder;
+  color: #ffc9c7;
+  animation: neon 0.1s ease-in-out infinite alternate;
 }
 
 .header-logo a:active, .header-logo a:link, .header-logo a:visited {
-  color:#9f2a00;
+  color: #ffc9c7;
   text-decoration:none;
-  font-weight: bolder;
 }
 
 .header-logo a:hover {
-  color:rgb(0,128,0);
+  color: #ffa3a0;
   text-decoration:none;
-  font-weight: bolder;
+  font-weight: normal;
+}
+
+/*-- Animation header-logo --*/
+@keyframes neon {
+  from {
+    text-shadow:
+    0 0 6px rgba(227, 219, 201, 0.92),
+    0 0 30px rgba(227, 219, 201, 0.34),
+    0 0 12px rgba(242, 36, 28, 0.52),
+    0 0 21px rgba(242, 36, 28, 0.92),
+    0 0 34px rgba(242, 36, 28, 0.78),
+    0 0 54px rgba(242, 36, 28, 0.92);
+  }
+
+  to {
+    text-shadow:
+    0 0 6px rgba(227, 219, 201, 0.98),
+    0 0 30px rgba(227, 219, 201, 0.42),
+    0 0 12px rgba(242, 36, 28, 0.58),
+    0 0 22px rgba(242, 36, 28, 0.84),
+    0 0 38px rgba(242, 36, 28, 0.88),
+    0 0 60px rgba(242, 36, 28, 1);
+  }
 }
 
 .nav-global {
