@@ -170,10 +170,10 @@
 "rating": -1,
 "SHU": -1,
 "times_purchased": 0,
-"thick": "Y",
+"thick": "N",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
-"link": "https://www.northendsauce.net/product-page/pineapple-mango-sauce-5oz"
+"link": "https://www.amazon.com/s?k=akabanga+oil"
 },
 {
 "sauce": "Sacrifice",
@@ -213,7 +213,7 @@
 "brewery": "The Satanic Temple",
 "rating": -1,
 "SHU": -1,
-"times_purchased": 0,
+"times_purchased": 1,
 "thick": "Y",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
@@ -224,7 +224,7 @@
 "brewery": "The Satanic Temple",
 "rating": -1,
 "SHU": -1,
-"times_purchased": 0,
+"times_purchased": 1,
 "thick": "Y",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
