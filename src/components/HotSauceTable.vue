@@ -117,7 +117,7 @@ body {
 }
 
 table, th, td {
-  border: 1px solid #777777;
+  border: 1px solid rgb(1,4,9);
   border-collapse: collapse;
   color:rgb(201, 209, 217);
 }
