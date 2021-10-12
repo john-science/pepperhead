@@ -26,6 +26,9 @@
   padding-left:1em;
   padding-right:1em;
   background-color:#191919;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-color:red;
 }
 
 .header-logo {

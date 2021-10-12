@@ -15,9 +15,15 @@ body {
 }
 
 h1,h2,h3,h4 {
-  color:#eee;
-  background-color:var(--pepper-red);
-  margin:0px;
+  margin:0;
+  color:#dfffdf;
+  text-shadow:
+    0 0 12px rgba(28, 242, 51, 0.58),
+    0 0 22px rgba(55, 242, 28, 0.84),
+    0 0 38px rgba(28, 242, 41, 0.88),
+    0 0 60px #1cf247;
+  font-family:monospace,monospace;
+  font-weight:normal;
 }
 
 h1,h2 {
