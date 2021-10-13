@@ -6,7 +6,8 @@
 "SHU": 2200,
 "times_purchased": 36,
 "thick": "Y",
-"nosort_food_pairings": "Thai, Eggs",
+"style": "Sriracha",
+"nosort_food_pairings": "Thai, eggs",
 "nosort_flavors": "sweet, funky, tangy",
 "link": "https://www.huyfong.com/"
 },
@@ -17,7 +18,8 @@
 "SHU": 3750,
 "times_purchased": 0,
 "thick": "N",
-"nosort_food_pairings": "Eggs",
+"style": "Louisiana",
+"nosort_food_pairings": "eggs",
 "nosort_flavors": "vinegar, smokey",
 "link": "https://www.tabasco.com/hot-sauces/original-red-sauce/"
 },
@@ -28,7 +30,8 @@
 "SHU": 35000,
 "times_purchased": 2,
 "thick": "Y",
-"nosort_food_pairings": "Eggs, grilled vegetables",
+"style": "Craft",
+"nosort_food_pairings": "eggs, grilled vegetables",
 "nosort_flavors": "deep, earthy, chiles, onion, spices",
 "link": "https://www.nandosperiperi.com/peri-products/sauces/extra-extra-hot-peri-peri-sauce"
 },
@@ -40,6 +43,7 @@
 "SHU": 6000,
 "times_purchased": 1,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "Pretzels, Sausages",
 "nosort_flavors": "mustard, peppers, onion, carrot",
 "link": "https://www.halfmoonbaytrading.com/sauces/iguana-gold-island-pepper-sauce"
@@ -52,6 +56,7 @@
 "SHU": 6500,
 "times_purchased": 1,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "Thai, eggs, sandwiches",
 "nosort_flavors": "fruit, funk, mango, peppers",
 "link": "https://highriversauces.com/tears-of-the-sun/"
@@ -64,6 +69,7 @@
 "SHU": 7000,
 "times_purchased": 1,
 "thick": "N",
+"style": "Craft",
 "nosort_food_pairings": "French fries, eggs",
 "nosort_flavors": "vinegar, peppers, salt-and-pepper",
 "link": "https://www.panamahotsauce.com/"
@@ -76,6 +82,7 @@
 "SHU": 45000,
 "times_purchased": 1,
 "thick": "N",
+"style": "Craft",
 "nosort_food_pairings": "eggs, sandwiches",
 "nosort_flavors": "vinegar, peppers, funk",
 "link": "https://melindas.com"
@@ -88,62 +95,68 @@
 "SHU": 3600,
 "times_purchased": 12,
 "thick": "N",
-"nosort_food_pairings": "Pizza, Eggs",
+"style": "Picante",
+"nosort_food_pairings": "Pizza, eggs",
 "nosort_flavors": "vinegar, smoky, peppers, funk",
 "link": "https://www.cholula.com/"
 },
 
 {
-"sauce": "Red Habenero",
+"sauce": "Red Habanero",
 "brewery": "El Yucateco",
 "rating": 75,
 "SHU": 5790,
 "times_purchased": 1,
 "thick": "Y",
+"style": "Roja",
 "nosort_food_pairings": "fries, burgers",
 "nosort_flavors": "tomato, peppers, sugar",
 "link": "https://www.elyucateco.com/"
 },
 {
-"sauce": "Green Habenero",
+"sauce": "Green Habanero",
 "brewery": "El Yucateco",
 "rating": 78,
 "SHU": 9000,
 "times_purchased": 1,
 "thick": "Y",
+"style": "Verde",
 "nosort_food_pairings": "eggs, tacos",
 "nosort_flavors": "green peppers",
 "link": "https://www.elyucateco.com/"
 },
 {
-"sauce": "Caribbean Habenero",
+"sauce": "Caribbean Habanero",
 "brewery": "El Yucateco",
 "rating": 90,
 "SHU": 5400,
 "times_purchased": 1,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "rice and beans, corn on the cob, sandwiches",
 "nosort_flavors": "carrot, onion, pepper",
 "link": "https://www.elyucateco.com/"
 },
 {
-"sauce": "Kutbil-Ik XXXtra Hot Habenero",
+"sauce": "Kutbil-Ik XXXtra Hot Habanero",
 "brewery": "El Yucateco",
 "rating": 80,
 "SHU": 11600,
 "times_purchased": 1,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "burgers",
 "nosort_flavors": "tomatoes, onions, pepper, spices",
 "link": "https://www.elyucateco.com/"
 },
 {
-"sauce": "Habenero",
+"sauce": "Habanero",
 "brewery": "Yellowbird",
 "rating": 90,
 "SHU": 35000,
 "times_purchased": 1,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "Mexican, Mediterranean",
 "nosort_flavors": "carrot, citrus, habanero, onion",
 "link": "https://www.yellowbirdfoods.com/"

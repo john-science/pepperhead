@@ -6,6 +6,7 @@
 "SHU": -1,
 "times_purchased": 0,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://highriversauces.com/"
@@ -17,6 +18,7 @@
 "SHU": -1,
 "times_purchased": 2,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://highriversauces.com/"
@@ -28,6 +30,7 @@
 "SHU": -1,
 "times_purchased": 0,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://www.painisgood.co/"
@@ -39,6 +42,7 @@
 "SHU": -1,
 "times_purchased": 0,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://queenmajestyhotsauce.com/"
@@ -50,6 +54,7 @@
 "SHU": -1,
 "times_purchased": 0,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://www.yellowbirdfoods.com/"
@@ -61,6 +66,7 @@
 "SHU": -1,
 "times_purchased": 0,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://bonachesauce.com/"
@@ -72,6 +78,7 @@
 "SHU": -1,
 "times_purchased": 0,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": ""
@@ -83,6 +90,7 @@
 "SHU": -1,
 "times_purchased": 0,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "http://www.mikesfinebrines.com/"
@@ -94,6 +102,7 @@
 "SHU": -1,
 "times_purchased": 0,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://www.silagysauce.com/shop"
@@ -105,6 +114,7 @@
 "SHU": -1,
 "times_purchased": 0,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://www.silagysauce.com/shop"
@@ -116,6 +126,7 @@
 "SHU": -1,
 "times_purchased": 0,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://secretaardvark.com/"
@@ -127,6 +138,7 @@
 "SHU": -1,
 "times_purchased": 0,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://www.flashpointsauces.com/grimpeacherhotsauce/"
@@ -138,6 +150,7 @@
 "SHU": -1,
 "times_purchased": 0,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://flavorandfire.com/products/california-zen-hot-sauce"
@@ -149,6 +162,7 @@
 "SHU": -1,
 "times_purchased": 0,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://flavorandfire.com/products/california-zen-hot-sauce"
@@ -160,6 +174,7 @@
 "SHU": -1,
 "times_purchased": 0,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://www.northendsauce.net/product-page/pineapple-mango-sauce-5oz"
@@ -171,6 +186,7 @@
 "SHU": -1,
 "times_purchased": 0,
 "thick": "N",
+"style": "Chili Oil",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://www.amazon.com/s?k=akabanga+oil"
@@ -182,6 +198,7 @@
 "SHU": -1,
 "times_purchased": 0,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://www.angrygoatpepperco.com/collections/hot-sauce/products/sacrifice-hot-sauce"
@@ -193,6 +210,7 @@
 "SHU": -1,
 "times_purchased": 0,
 "thick": "Y",
+"style": "Cajun",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://store.slapyamama.com/collections/cajun-hot-sauces/products/slap-ya-mama-cajun-pepper-sauce-5floz-bottle"
@@ -204,6 +222,7 @@
 "SHU": -1,
 "times_purchased": 0,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://mariesharpsusa.com/collections/store"
@@ -215,6 +234,7 @@
 "SHU": -1,
 "times_purchased": 1,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://thesatanictemple.com/products/individual-hot-sauce"
@@ -226,6 +246,7 @@
 "SHU": -1,
 "times_purchased": 1,
 "thick": "Y",
+"style": "Craft",
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://thesatanictemple.com/products/individual-hot-sauce"
