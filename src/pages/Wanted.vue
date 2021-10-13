@@ -2,7 +2,7 @@
   <div id="wanted">
     <NavBar />
 
-    <h2>Hot Sauces I Want to Try</h2>
+    <h2>Sauces I Want to Try</h2>
     <ul class="big-list">
       <li v-for="item in data" :key="item">
         <template v-if="item.link">

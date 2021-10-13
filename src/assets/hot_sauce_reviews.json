@@ -44,7 +44,7 @@
 "times_purchased": 1,
 "thick": "Y",
 "style": "Craft",
-"nosort_food_pairings": "Pretzels, Sausages",
+"nosort_food_pairings": "pretzels, sausages",
 "nosort_flavors": "mustard, peppers, onion, carrot",
 "link": "https://www.halfmoonbaytrading.com/sauces/iguana-gold-island-pepper-sauce"
 },
@@ -96,7 +96,7 @@
 "times_purchased": 12,
 "thick": "N",
 "style": "Picante",
-"nosort_food_pairings": "Pizza, eggs",
+"nosort_food_pairings": "pizza, eggs",
 "nosort_flavors": "vinegar, smoky, peppers, funk",
 "link": "https://www.cholula.com/"
 },
