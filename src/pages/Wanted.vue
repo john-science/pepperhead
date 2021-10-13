@@ -3,17 +3,19 @@
     <NavBar />
 
     <h2>Sauces I Want to Try</h2>
-    <ul class="big-list">
-      <li v-for="item in data" :key="item">
-        <template v-if="item.link">
-          <a :href="item['link']" target="_blank">{{ item.brewery }}</a>
-        </template>
-        <template v-else>
-          {{ item.brewery }}
-        </template>
-        - {{ item.sauce }}
-      </li>
-    </ul>
+    <div class="center-it">
+      <ul class="big-list">
+        <li v-for="item in data" :key="item">
+          <template v-if="item.link">
+            <a :href="item['link']" target="_blank">{{ item.brewery }}</a>
+          </template>
+          <template v-else>
+            {{ item.brewery }}
+          </template>
+          - {{ item.sauce }}
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -48,9 +50,12 @@
 </script>
 
 <style scoped>
+.center-it {
+  text-align:center;
+}
 .big-list {
+  display:inline-block;
   text-align: left;
-  margin-left: 20%;
 }
 </style>
 

@@ -11,6 +11,11 @@ module.exports = {
       entry: './src/entry/wanted/index.js',
       template: 'public/wanted.html',
       title: 'Sauces I Want',
+    },
+    'styles': {
+      entry: './src/entry/styles/index.js',
+      template: 'public/styles.html',
+      title: 'Styles of Hot Sauces',
     }
   }
 }
