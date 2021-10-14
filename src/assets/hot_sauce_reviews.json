@@ -2,7 +2,7 @@
 {
 "sauce": "Sriracha",
 "brewery": "Hoy Fung Foods",
-"rating": 80,
+"rating": 8,
 "SHU": 2200,
 "times_purchased": 36,
 "thick": "Y",
@@ -14,7 +14,7 @@
 {
 "sauce": "Tobasco",
 "brewery": "McIlhenny",
-"rating": 20,
+"rating": 2,
 "SHU": 3750,
 "times_purchased": 0,
 "thick": "N",
@@ -26,7 +26,7 @@
 {
 "sauce": "Peri Peri - XX Hot",
 "brewery": "Nando's",
-"rating": 90,
+"rating": 9,
 "SHU": 35000,
 "times_purchased": 2,
 "thick": "Y",
@@ -39,7 +39,7 @@
 {
 "sauce": "Iguana Gold",
 "brewery": "Half Moon Bay Trading",
-"rating": 95,
+"rating": 10,
 "SHU": 6000,
 "times_purchased": 1,
 "thick": "Y",
@@ -52,7 +52,7 @@
 {
 "sauce": "Tears of the Sun Private Reserve",
 "brewery": "High River Sauces",
-"rating": 90,
+"rating": 9,
 "SHU": 6500,
 "times_purchased": 1,
 "thick": "Y",
@@ -65,7 +65,7 @@
 {
 "sauce": "Howler Monkey Sauce - Hot",
 "brewery": "Panama Hot Sauce",
-"rating": 55,
+"rating": 6,
 "SHU": 7000,
 "times_purchased": 1,
 "thick": "N",
@@ -78,7 +78,7 @@
 {
 "sauce": "Ghost Pepper",
 "brewery": "Melinda's",
-"rating": 55,
+"rating": 6,
 "SHU": 45000,
 "times_purchased": 1,
 "thick": "N",
@@ -91,7 +91,7 @@
 {
 "sauce": "Cholula - Original",
 "brewery": "Spicy Liquid",
-"rating": 75,
+"rating": 8,
 "SHU": 3600,
 "times_purchased": 12,
 "thick": "N",
@@ -104,7 +104,7 @@
 {
 "sauce": "Red Habanero",
 "brewery": "El Yucateco",
-"rating": 75,
+"rating": 8,
 "SHU": 5790,
 "times_purchased": 1,
 "thick": "Y",
@@ -116,7 +116,7 @@
 {
 "sauce": "Green Habanero",
 "brewery": "El Yucateco",
-"rating": 78,
+"rating": 8,
 "SHU": 9000,
 "times_purchased": 1,
 "thick": "Y",
@@ -128,7 +128,7 @@
 {
 "sauce": "Caribbean Habanero",
 "brewery": "El Yucateco",
-"rating": 90,
+"rating": 9,
 "SHU": 5400,
 "times_purchased": 1,
 "thick": "Y",
@@ -140,7 +140,7 @@
 {
 "sauce": "Kutbil-Ik XXXtra Hot Habanero",
 "brewery": "El Yucateco",
-"rating": 80,
+"rating": 8,
 "SHU": 11600,
 "times_purchased": 1,
 "thick": "Y",
@@ -152,7 +152,7 @@
 {
 "sauce": "Habanero",
 "brewery": "Yellowbird",
-"rating": 90,
+"rating": 9,
 "SHU": 35000,
 "times_purchased": 1,
 "thick": "Y",
