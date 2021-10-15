@@ -3,7 +3,7 @@
     <NavBar />
 
     <h2>Hot Sauce Styles</h2>
-    <p>At some point, the variety of hot sauces just sky-rocketed. But before the craft hot sauce movement, there were distinct styles of spicy sauces around the world. We attempt to identify the most popular here.</p>
+    <p class="not-too-wide">At some point, the variety of hot sauces just sky-rocketed. But before the craft hot sauce movement, there were distinct styles of spicy sauces around the world. We attempt to identify the most popular here.</p>
    <br/>
 
     <div class="center-it">
@@ -11,7 +11,7 @@
         <div v-for="item in data" :key="item">
           <h3>{{ item.style }}</h3>
           <h4 v-if="item.examples.length > 0">{{ item.examples }}</h4>
-          <p>{{ item.desc }}</p>
+          <p class="not-too-wide">{{ item.desc }}</p>
           <br/>
         </div>
       </template>
@@ -25,16 +25,15 @@
   import styleData from "../assets/styles_of_sauces.json";
   import sauceData from "../assets/hot_sauce_reviews.json";
 
-  // pre-parsing styles from all reviewed hot sauces
+  /** Grab style examples from our reviews */
   let styleToSauce = {};
   for (let item in styleData) {
     styleToSauce[styleData[item].style] = [];
   }
-
   for (let item in sauceData) {
     styleToSauce[sauceData[item].style].push(sauceData[item].sauce);
   }
-
+  /** Load 3 arbitrary examples into our style guide */
   for (let item in styleData) {
     styleData[item].examples = [];
     let exs = styleToSauce[styleData[item].style];
@@ -58,9 +57,9 @@
 .center-it {
   text-align:center;
 }
-.big-list {
+.not-too-wide {
+  width:min(800px, 90%);
   display:inline-block;
   text-align: left;
 }
 </style>
-
