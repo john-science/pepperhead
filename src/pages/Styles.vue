@@ -10,7 +10,7 @@
       <template>
         <div v-for="item in data" :key="item">
           <h3>{{ item.style }}</h3>
-          <h4 v-if="item.examples.length > 0">{{ item.examples }}</h4>
+          <h4 v-if="item.examples.length > 0">Examples: {{ item.examples }}</h4>
           <p class="not-too-wide">{{ item.desc }}</p>
           <br/>
         </div>
@@ -31,14 +31,14 @@
     styleToSauce[styleData[item].style] = [];
   }
   for (let item in sauceData) {
-    styleToSauce[sauceData[item].style].push(sauceData[item].sauce);
+    styleToSauce[sauceData[item].style].push(sauceData[item].sauce.split(" - ")[0] + " by " + sauceData[item].brewery);
   }
   /** Load 3 arbitrary examples into our style guide */
   for (let item in styleData) {
     styleData[item].examples = [];
     let exs = styleToSauce[styleData[item].style];
     if (exs && exs.length > 0) {
-      styleData[item].examples = exs.slice(0, 3);
+      styleData[item].examples = exs.slice(0, 2);
     }
   }
 
