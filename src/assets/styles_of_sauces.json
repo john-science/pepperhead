@@ -4,8 +4,44 @@
 "desc": "...vinegary..."
 },
 {
+"style": "Cajun",
+"desc": "...like Louisiana, but..."
+},
+{
+"style": "Roja",
+"desc": "TODO"
+},
+{
+"style": "Verde",
+"desc": "TODO"
+},
+{
+"style": "Sriracha",
+"desc": "The style that start the craft hot sauce movement. ...TODO"
+},
+{
+"style": "Harissa",
+"desc": "TODO"
+},
+{
+"style": "Picante",
+"desc": "TODO"
+},
+{
+"style": "Akabanga Oil",
+"desc": "TODO Rawanda"
+},
+{
+"style": "Chili Oil",
+"desc": "TODO"
+},
+{
+"style": "Olema Symbek",
+"desc": "TODO"
+},
+{
 "style": "Super Hot",
-"desc": "Typically, anything where heat is more important than flavor. But if you want to get technical about it, most sauces over ~500,000 SHU. But that number is a bit arbitrary."
+"desc": "Typically, anything where heat is more important than flavor. Broadly, anything over ~500,000 SHU. But that number is kind of arbitrary, let's not get hung up on it."
 },
 {
 "style": "Craft",
