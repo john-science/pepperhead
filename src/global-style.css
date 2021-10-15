@@ -14,14 +14,28 @@ body {
   margin:0px;
 }
 
-h1,h2,h3,h4 {
+h2,h4 {
   margin:0;
   color:#dfffdf;
   text-shadow:
     0 0 12px rgba(28, 242, 51, 0.58),
     0 0 22px rgba(55, 242, 28, 0.84),
     0 0 38px rgba(28, 242, 41, 0.88),
-    0 0 60px #1cf247;
+    0 0 60px rgba(28, 242, 71, 0.92);
+  font-family:monospace,monospace;
+  font-weight:normal;
+}
+
+h1,h3 {
+  margin:0;
+  color:#ffc9c7;
+  text-shadow:
+    0 0 6px rgba(227, 219, 201, 0.92),
+    0 0 30px rgba(227, 219, 201, 0.34),
+    0 0 12px rgba(242, 36, 28, 0.52),
+    0 0 21px rgba(242, 36, 28, 0.92),
+    0 0 34px rgba(242, 36, 28, 0.78),
+    0 0 54px rgba(242, 36, 28, 0.92);
   font-family:monospace,monospace;
   font-weight:normal;
 }
