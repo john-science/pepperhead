@@ -1,11 +1,7 @@
 [
 {
 "style": "Louisiana",
-"desc": "...vinegary..."
-},
-{
-"style": "Cajun",
-"desc": "...like Louisiana, but..."
+"desc": "A vinegar-forward sauce, these are the classic hot sauce of the American South. People sometimes also call these 'Cajon' hot sauces."
 },
 {
 "style": "Roja",
@@ -17,7 +13,7 @@
 },
 {
 "style": "Sriracha",
-"desc": "The style that start the craft hot sauce movement. ...TODO"
+"desc": "Sweeter than most hot sauces, a good sriracha has a lot of funk. This sauce won't run off your food, it's thick enough to stay on top of your eggs."
 },
 {
 "style": "Harissa",
@@ -36,7 +32,15 @@
 "desc": "TODO"
 },
 {
-"style": "Olema Symbek",
+"style": "Sambal Oelek",
+"desc": "A wonderful simple Indonesian hot sauce; very chunky, mostly peppers, with a little dash of salt and maybe a little vinegar."
+},
+{
+"style": "Chili-Garlic",
+"desc": "TODO"
+},
+{
+"style": "Gochujang",
 "desc": "TODO"
 },
 {
