@@ -4,32 +4,32 @@
 "desc": "A vinegar-forward sauce, these are the classic hot sauce of the American South. People sometimes also call these 'Cajon' hot sauces."
 },
 {
-"style": "Roja",
-"desc": "TODO"
+"style": "Red Chile",
+"desc": "TODO... originally from New Mexico..."
 },
 {
-"style": "Verde",
-"desc": "TODO"
+"style": "Green Chile",
+"desc": "TODO... originally from New Mexico..."
 },
 {
 "style": "Sriracha",
-"desc": "Sweeter than most hot sauces, a good sriracha has a lot of funk. This sauce won't run off your food, it's thick enough to stay on top of your eggs."
+"desc": "Sweeter than most hot sauces, a good sriracha has a lot of funk. This sauce won't run off your food, it's thick enough to stay on top of your eggs. Srirachas are always blended smooth, and they always include garlic."
 },
 {
 "style": "Harissa",
-"desc": "TODO"
+"desc": "From North Africa, Harissa is always a thick paste. It is an oil-based sauce, usually olive oil. And it always has a blend of spices, frequently cumin and corriander."
 },
 {
 "style": "Picante",
-"desc": "TODO"
+"desc": "These Mexican-style hot sauces have a similar thin consistency to their Louisana-style sauce from just North of the border. But unlike Louisana sauces they have little to no vinegar."
 },
 {
 "style": "Akabanga Oil",
-"desc": "TODO Rawanda"
+"desc": "This is a popular table condiment in Rwanda. Mostly vegetable oil by volume, these sauce frequently have enough Scotch Bonnets and Habaneros to really pack a punch. Akabanga oil is a great way to add some variety to your hot sauce arsenal."
 },
 {
 "style": "Chili Oil",
-"desc": "TODO"
+"desc": "There are a lot of different kinds of chili oils out there, from mostly oil like an Akabanga, to mostly dried peppers in oil like the famous Laoganma from China."
 },
 {
 "style": "Sambal Oelek",
@@ -37,11 +37,11 @@
 },
 {
 "style": "Chili-Garlic",
-"desc": "TODO"
+"desc": "Like Sriracha, these sauces are thick, but they have more garlic and less sugar/sweetness than Sriracha sauces. And they are frequently less well-blended and chunkier."
 },
 {
 "style": "Gochujang",
-"desc": "TODO"
+"desc": "Hailing from Korea, these sauces are thick, red pastes that frequently include rice, sugar, and soybeans. These are more frequently used in cooking a sauce than as a sauce straight out of the bottle."
 },
 {
 "style": "Super Hot",

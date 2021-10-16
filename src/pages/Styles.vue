@@ -5,6 +5,7 @@
     <h2>Hot Sauce Styles</h2>
     <p class="not-too-wide">At some point, the variety of hot sauces just sky-rocketed. But before the craft hot sauce movement, there were distinct styles of spicy sauces around the world. We attempt to identify the most popular here.</p>
    <br/>
+   <br/>
 
     <div class="center-it">
       <template>
@@ -12,6 +13,7 @@
           <h3>{{ item.style }}</h3>
           <h4 v-if="item.examples.length > 0">Examples: {{ item.examples }}</h4>
           <p class="not-too-wide">{{ item.desc }}</p>
+          <br/>
           <br/>
         </div>
       </template>
