@@ -10,6 +10,7 @@
             <nav class="nav-global">
               <ul>
                 <li><a href="/pepperhead/">Reviews</a></li>
+                <li><a href="/pepperhead/styles">Styles</a></li>
                 <li><a href="/pepperhead/wanted">Wanted</a></li>
               </ul>
             </nav>
@@ -81,7 +82,7 @@
   font-weight: bolder;
   margin-top:0;
   text-align:right;
-  width:15em;
+  width:100%;
   float:right;
 }
 
