@@ -16,6 +16,12 @@ module.exports = {
       entry: './src/entry/styles/index.js',
       template: 'public/styles.html',
       title: 'Styles of Hot Sauces',
-    }
+    },
+    '404': {
+      entry: "./src/entry/404/index.js",
+      template: "public/404.html",
+      title: "404",
+      chunks: ["chunk-vendors", "chunk-common", "404"],
+    },
   }
 }
