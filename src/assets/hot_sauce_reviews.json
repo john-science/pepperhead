@@ -160,5 +160,16 @@
 "nosort_food_pairings": "Mexican, Mediterranean",
 "nosort_flavors": "carrot, citrus, habanero, onion",
 "link": "https://www.yellowbirdfoods.com/"
+},
+"sauce": "Fried in Chili Oil",
+"brewery": "Laoganma",
+"rating": 9,
+"SHU": 1000,
+"times_purchased": 2,
+"thick": "Y",
+"style": "Chili Oil",
+"nosort_food_pairings": "Chinese, Thai, eggs",
+"nosort_flavors": "peppers, oil",
+"link": "https://www.laoganmausa.com/"
 }
 ]
