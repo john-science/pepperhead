@@ -172,5 +172,18 @@
 "nosort_food_pairings": "Chinese, Thai, eggs",
 "nosort_flavors": "peppers, oil",
 "link": "https://www.laoganmausa.com/"
+},
+
+{
+"sauce": "Nopal Cacus",
+"brewery": "Dank Sauce",
+"rating": 9,
+"SHU": 1000,
+"times_purchased": 1,
+"thick": "Y",
+"style": "Craft",
+"nosort_food_pairings": "Mexican, sushi, eggs",
+"nosort_flavors": "tomatillo, cactus, peppers",
+"link": "https://danksauces.com/"
 }
 ]
