@@ -1,5 +1,10 @@
 
 module.exports = {
+  chainWebpack: config => {
+    config.performance
+      .maxEntrypointSize(440000)
+      .maxAssetSize(440000)
+  },
   publicPath: './',
   pages: {
     'index': {
