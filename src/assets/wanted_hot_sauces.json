@@ -250,5 +250,29 @@
 "nosort_food_pairings": "",
 "nosort_flavors": "",
 "link": "https://thesatanictemple.com/products/individual-hot-sauce"
+},
+{
+"sauce": "Ghost Pepper Mustard",
+"brewery": "Inglehoffer",
+"rating": -1,
+"SHU": -1,
+"times_purchased": 1,
+"thick": "Y",
+"style": "Craft",
+"nosort_food_pairings": "",
+"nosort_flavors": "",
+"link": "https://www.beavertonfoods.com/product/inglehoffer-ghost-pepper-mustard-10-25-oz/"
+},
+{
+"sauce": "Honey Badger Honey Mustard",
+"brewery": "Torchbearer Sauces",
+"rating": -1,
+"SHU": -1,
+"times_purchased": 1,
+"thick": "Y",
+"style": "Craft",
+"nosort_food_pairings": "",
+"nosort_flavors": "",
+"link": "https://heatonist.com/products/torchbearer-honey-badger?variant=31997514285154"
 }
 ]
