@@ -154,7 +154,7 @@
 "brewery": "Yellowbird",
 "rating": 9,
 "SHU": 35000,
-"times_purchased": 1,
+"times_purchased": 3,
 "thick": "Y",
 "style": "Craft",
 "nosort_food_pairings": "Mexican, Mediterranean",
@@ -185,5 +185,30 @@
 "nosort_food_pairings": "Mexican, sushi, eggs",
 "nosort_flavors": "tomatillo, cactus, peppers",
 "link": "https://danksauces.com/"
+},
+
+{
+"sauce": "Ghost Pepper",
+"brewery": "The Satanic Temple",
+"rating": 9,
+"SHU": 25000,
+"times_purchased": 1,
+"thick": "Y",
+"style": "Craft",
+"nosort_food_pairings": "pizza, eggs",
+"nosort_flavors": "smoky, black pepper, peppers",
+"link": "https://thesatanictemple.com/products/individual-hot-sauce"
+},
+{
+"sauce": "Mongo Habanero",
+"brewery": "The Satanic Temple",
+"rating": 8,
+"SHU": 4000,
+"times_purchased": 1,
+"thick": "Y",
+"style": "Craft",
+"nosort_food_pairings": "Thai, eggs, sandwiches",
+"nosort_flavors": "mango, peppers, citrus",
+"link": "https://thesatanictemple.com/products/individual-hot-sauce"
 }
 ]
