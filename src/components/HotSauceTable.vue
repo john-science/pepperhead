@@ -15,7 +15,7 @@
         </th>
       </thead>
       <tbody>
-        <tr v-for="item in filteredData" :key="item.sauce">
+        <tr v-for="item in filteredData" :key="item.sauce + item.brewery">
           <template v-if="item['link']">
             <td><a :href="item['link']" target="_blank">{{ item["sauce"] }}</a></td>
           </template>
@@ -35,7 +35,6 @@
   import rawData from "../assets/hot_sauce_reviews.json";
   let rawHeaders = Object.keys(rawData[0]);
   const noSortStr = "nosort_";
-
 
   export default {
     props: {
