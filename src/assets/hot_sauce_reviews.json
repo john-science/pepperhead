@@ -210,5 +210,18 @@
 "nosort_food_pairings": "Thai, eggs, sandwiches",
 "nosort_flavors": "mango, peppers, citrus",
 "link": "https://thesatanictemple.com/products/individual-hot-sauce"
+},
+
+{
+"sauce": "Habanero Hot Sauce",
+"brewery": "Secret Aardvark",
+"rating": 8,
+"SHU": 5000,
+"times_purchased": 1,
+"thick": "N",
+"style": "Craft",
+"nosort_food_pairings": "eggs, sandwiches",
+"nosort_flavors": "tomato, onion, spices",
+"link": "https://secretaardvark.com/"
 }
 ]
