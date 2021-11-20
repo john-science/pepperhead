@@ -50,6 +50,32 @@
 },
 
 {
+"sauce": "Iguana XXX Habanero",
+"brewery": "Half Moon Bay Trading",
+"rating": 8,
+"SHU": 10000,
+"times_purchased": 1,
+"thick": "Y",
+"style": "Craft",
+"nosort_food_pairings": "Mexican, eggs",
+"nosort_flavors": "peppers, carrots, limes",
+"link": "https://www.halfmoonbaytrading.com/sauces/iguana-xxx-habanero-pepper-sauce"
+},
+
+{
+"sauce": "Iguana Radioactive Atomic",
+"brewery": "Half Moon Bay Trading",
+"rating": 7,
+"SHU": 20000,
+"times_purchased": 1,
+"thick": "Y",
+"style": "Craft",
+"nosort_food_pairings": "Mexican, eggs",
+"nosort_flavors": "peppers, carrots, limes",
+"link": "https://www.halfmoonbaytrading.com/sauces/iguana-radioactive-atomic-pepper-sauce"
+},
+
+{
 "sauce": "Tears of the Sun Private Reserve",
 "brewery": "High River Sauces",
 "rating": 9,
